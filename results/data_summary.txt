@@ -1,0 +1,49 @@
+Dataset shape: (10000, 15)
+
+Columns:
+Customer_ID
+Product_ID
+Transaction_ID
+Purchase_Frequency
+Average_Order_Value
+Most_Frequent_Category
+Time_Between_Purchases
+Region
+Churn_Probability
+Lifetime_Value
+Launch_Date
+Peak_Sales_Date
+Season
+Preferred_Purchase_Times
+Retention_Strategy
+
+Missing values:
+Customer_ID                 0
+Product_ID                  0
+Transaction_ID              0
+Purchase_Frequency          0
+Average_Order_Value         0
+Most_Frequent_Category      0
+Time_Between_Purchases      0
+Region                      0
+Churn_Probability           0
+Lifetime_Value              0
+Launch_Date                 0
+Peak_Sales_Date             0
+Season                      0
+Preferred_Purchase_Times    0
+Retention_Strategy          0
+
+Summary:
+        Customer_ID   Product_ID Transaction_ID  Purchase_Frequency  Average_Order_Value Most_Frequent_Category  Time_Between_Purchases  Region  Churn_Probability  Lifetime_Value Launch_Date Peak_Sales_Date  Season Preferred_Purchase_Times Retention_Strategy
+count         10000        10000          10000        10000.000000         10000.000000                  10000            10000.000000   10000       10000.000000    10000.000000       10000           10000   10000                    10000              10000
+unique        10000        10000          10000                 NaN                  NaN                      4                     NaN       4                NaN             NaN        1097             365       4                        3                  3
+top     CUST_9HOS83  PROD_IK97D1   TRANS_II1DZG                 NaN                  NaN            Electronics                     NaN  Europe                NaN             NaN  2021-02-23      2023-10-28  Winter                  Evening    Loyalty Program
+freq              1            1              1                 NaN                  NaN                   2567                     NaN    2547                NaN             NaN          19              45    2534                     3433               3364
+mean            NaN          NaN            NaN            9.955700           110.006022                    NaN               46.885300     NaN           0.501552     5031.930567         NaN             NaN     NaN                      NaN                NaN
+std             NaN          NaN            NaN            5.526209            52.096870                    NaN               24.711746     NaN           0.288289     2865.420299         NaN             NaN     NaN                      NaN                NaN
+min             NaN          NaN            NaN            1.000000            20.010000                    NaN                5.000000     NaN           0.000000      100.160000         NaN             NaN     NaN                      NaN                NaN
+25%             NaN          NaN            NaN            5.000000            65.262500                    NaN               25.000000     NaN           0.250000     2518.775000         NaN             NaN     NaN                      NaN                NaN
+50%             NaN          NaN            NaN           10.000000           109.930000                    NaN               47.000000     NaN           0.500000     5012.180000         NaN             NaN     NaN                      NaN                NaN
+75%             NaN          NaN            NaN           15.000000           155.480000                    NaN               68.000000     NaN           0.750000     7526.232500         NaN             NaN     NaN                      NaN                NaN
+max             NaN          NaN            NaN           19.000000           199.960000                    NaN               89.000000     NaN           1.000000     9999.760000         NaN             NaN     NaN                      NaN                NaN

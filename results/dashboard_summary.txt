@@ -1,0 +1,5 @@
+Filtered records: 10000
+Average order value: 110.01
+Average lifetime value: 5031.93
+Average churn probability: 0.5016
+High-risk records: 3061
