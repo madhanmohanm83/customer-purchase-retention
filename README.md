@@ -287,7 +287,9 @@ Make sure `data/sales_and_customer_insights.csv` exists before starting the appl
 
 ## 11. Live Dashboard
 
-**Streamlit App:** Add the live Streamlit URL for this Customer Purchase Behavior & Retention Strategy project here.
+**Streamlit App:** **Streamlit App:** https://customer-purchase-retention-hdx4oxf8red4gs3ctp987j.streamlit.app/
+
+Open the live dashboard to explore customer purchase behavior, churn-risk scores, K-Means customer segmentation, and retention recommendations.
 
 The live URL must belong to this project. Do not use a URL belonging to a different project.
 
